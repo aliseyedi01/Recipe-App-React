@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className=" container flex h-16 flex-row items-center justify-between bg-zinc-400 px-20 ">
+    <div className=" px-15 container flex h-16 flex-row items-center  justify-between px-5 pt-5 ">
       <h2 className=" cursor-pointer font-mono text-2xl font-bold">Recipe App</h2>
 
       <ul className="flex flex-row items-center justify-start gap-8 ">
