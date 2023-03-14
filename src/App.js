@@ -18,7 +18,7 @@ function App() {
           <Route path="/404" element={<NotFound />} />
           <Route path="/categories" element={<Categories />} />z
           <Route path="/childCategories/:meals" element={<ChildCategories />} />z
-          <Route path="/recipe" element={<Recipe />} />
+          <Route path="/recipe/:recipe" element={<Recipe />} />
         </Routes>
       </div>
     </div>
