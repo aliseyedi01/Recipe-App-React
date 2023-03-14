@@ -3,16 +3,16 @@ import aboutUs from "../../../src/assest/image/aboutUs/aboutUs.jpg";
 
 function About() {
   return (
-    <div className=" w-100 h-100    ">
+    <div className=" w-100 h-100 backdrop-blur-2xl  ">
       <Navbar />
 
-      <div className="item-start rounded-lg  mx-auto mt-5 flex h-[520px] w-[95%] flex-row gap-1  overflow-hidden bg-red-400  bg-opacity-40  bg-clip-padding    backdrop-blur-3xl backdrop-filter">
+      <div className="item-start mx-auto  mt-5 flex h-[550px] w-[95%] flex-row gap-1 overflow-hidden  rounded-lg  ">
         {/* left */}
         <img className=" my-auto ml-7 h-[400px] w-[400px]  rounded-image bg-contain " src={aboutUs} alt="about" />
         {/* right */}
         <div className="my-auto h-5/6 w-3/5  px-3 pt-4">
           <h2 className="text-2xl capitalize text-blue-400">about us </h2>
-          <p className="mt-1 text-justify font-mono text-xl text-indigo-200">
+          <p className="mt-1 text-justify font-mono text-xl text-indigo-100">
             Welcome to our recipe site! We are a team of passionate foodies dedicated to sharing delicious and easy-to-follow recipes with our readers. Our mission is to help home cooks of all skill
             levels create mouthwatering meals and desserts that will impress their family and friends. We believe that cooking should be fun and accessible, which is why we strive to make our recipes
             approachable and achievable.
