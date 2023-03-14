@@ -11,7 +11,7 @@ import ChildCategories from "./Pages/childcategories/ChildCategories";
 function App() {
   return (
     <div className="flex h-screen w-screen items-center justify-center bg-gray-500">
-      <div className="h-[85%] w-[80%] overflow-hidden rounded-2xl hue-rotate-30    " style={{ backgroundImage: "url(" + Background + ")" }}>
+      <div className="h-[85%] w-[80%] overflow-hidden rounded-2xl saturate-150  " style={{ backgroundImage: "url(" + Background + ")" }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
