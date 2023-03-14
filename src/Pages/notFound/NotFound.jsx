@@ -1,5 +1,11 @@
+import Navbar from "../../components/navbar/Navbar";
+
 function NotFound() {
-  return <h2>not found page</h2>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default NotFound;

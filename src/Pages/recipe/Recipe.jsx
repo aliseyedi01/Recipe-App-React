@@ -1,4 +1,10 @@
+import Navbar from "../../components/navbar/Navbar";
+
 function Recipe() {
-  return <h2>recipe</h2>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 export default Recipe;

@@ -1,5 +1,11 @@
+import Navbar from "../../components/navbar/Navbar";
+
 function Categories() {
-  return <h2>categories</h2>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default Categories;
