@@ -20,19 +20,19 @@ function Categories() {
   }, []);
 
   return (
-    <div>
+    <div className="h-full w-full backdrop-blur-2xl ">
       <Navbar />
 
-      <div className="flex flex-wrap items-center justify-center  ">
+      <div className="flex  flex-wrap items-center justify-center   ">
         {image.map((recipe) => {
           const { strCategory, strCategoryThumb } = recipe;
 
           return (
-            <div className="flex h-44 w-48  flex-col place-content-center">
+            <div className="flex h-48 w-48  flex-col place-content-center">
               <Link to={`/childCategories/${strCategory}`}>
-                <div className=" m-1  rounded-2xl p-5 text-white backdrop-blur-2xl duration-300 hover:scale-105 hover:cursor-pointer">
-                  <h2 className=" text-center text-2xl font-bold">{strCategory}</h2>
+                <div className="   rounded-2xl p-3 text-white  duration-300 hover:scale-105 hover:cursor-pointer">
                   <img className="h-full w-full rounded-lg" src={strCategoryThumb} alt={strCategory} />
+                  <h2 className=" text-center text-2xl font-bold">{strCategory}</h2>
                 </div>
               </Link>
             </div>
