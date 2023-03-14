@@ -6,6 +6,7 @@ import NotFound from "./Pages/notFound/NotFound";
 import Categories from "./Pages/categories/Categories";
 import Recipe from "./Pages/recipe/Recipe";
 import Background from "./../src/assest/image/backgournd/background.jpeg";
+import ChildCategories from "./Pages/childcategories/ChildCategories";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/404" element={<NotFound />} />
-          <Route path="/categories" element={<Categories />} />
+          <Route path="/categories" element={<Categories />} />z
+          <Route path="/childCategories/:meals" element={<ChildCategories />} />z
           <Route path="/recipe" element={<Recipe />} />
         </Routes>
       </div>
