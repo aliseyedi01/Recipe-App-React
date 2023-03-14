@@ -22,14 +22,14 @@ function Recipe() {
   const recipeName = useParams();
 
   return (
-    <div>
+    <div className="h-full w-full backdrop-blur-2xl">
       <Navbar />
-      <div className="h-full w-full   ">
+      <div className="scrollbar-hide h-full w-full overflow-y-scroll scroll-auto   ">
         {images.map((recipe) => {
           return (
             <div className="flex justify-between overflow-visible ">
               {/* left */}
-              <div className="w-[30%] p-2 backdrop-blur-3xl ">
+              <div className="w-[30%] p-2  ">
                 <h5 class="mb-2  font-sans text-2xl font-bold tracking-tight text-indigo-900 ">{recipe.strMeal}</h5>
                 <img class="m-auto mt-4 flex h-64 w-auto  rounded-full" src={recipe.strMealThumb} alt="" />
                 <div className="mt-1">
