@@ -31,7 +31,7 @@ function ChildCategories() {
           return (
             <div className="mb-5 flex h-36  w-36 flex-col items-center justify-between ">
               <Link to={`/recipe/${strMeal}`}>
-                <div className=" flex h-full  w-full flex-col items-center justify-between  rounded-2xl p-5 text-white  duration-300 hover:scale-105 hover:cursor-pointer">
+                <div className=" flex h-full  w-full flex-col items-center justify-between  rounded-2xl p-5 text-yellow-300 duration-300  hover:scale-105 hover:cursor-pointer dark:text-white">
                   <img className="h-full  w-full rounded-lg text-center" src={strMealThumb} alt={strMeal} />
                   <h2 className="text-md w-20 truncate  text-start font-bold">{strMeal}</h2>
                 </div>

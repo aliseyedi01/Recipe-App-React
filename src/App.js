@@ -10,7 +10,7 @@ import ChildCategories from "./Pages/childcategories/ChildCategories";
 
 function App() {
   return (
-    <div className="flex h-screen w-screen items-center justify-center bg-gray-500">
+    <div className="flex h-screen w-screen items-center justify-center bg-gradient-to-b from-orange-500 to-yellow-300  dark:bg-gradient-to-b dark:from-blue-700 dark:via-blue-800 dark:to-gray-900">
       <div className="h-[85%] w-[80%] overflow-hidden rounded-2xl saturate-150  " style={{ backgroundImage: "url(" + Background + ")" }}>
         <Routes>
           <Route path="/" element={<Home />} />

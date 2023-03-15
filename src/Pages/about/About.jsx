@@ -11,8 +11,8 @@ function About() {
         <img className=" my-auto ml-7 h-[400px] w-[400px]  rounded-image bg-contain " src={aboutUs} alt="about" />
         {/* right */}
         <div className="my-auto h-5/6 w-3/5  px-3 pt-4">
-          <h2 className="text-2xl capitalize text-blue-400">about us </h2>
-          <p className="mt-1 text-justify font-mono text-xl text-indigo-100">
+          <h2 className="text-2xl font-bold capitalize text-red-500 dark:text-sky-400">about us </h2>
+          <p className="mt-1 text-justify font-mono text-xl text-yellow-300 dark:text-white">
             Welcome to our recipe site! We are a team of passionate foodies dedicated to sharing delicious and easy-to-follow recipes with our readers. Our mission is to help home cooks of all skill
             levels create mouthwatering meals and desserts that will impress their family and friends. We believe that cooking should be fun and accessible, which is why we strive to make our recipes
             approachable and achievable.

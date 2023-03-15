@@ -30,11 +30,11 @@ function Recipe() {
             <div className="flex justify-between overflow-visible ">
               {/* left */}
               <div className="w-[30%] p-2  ">
-                <h5 class="mb-2  font-sans text-2xl font-bold tracking-tight text-indigo-900 ">{recipe.strMeal}</h5>
+                <h5 class="mb-2  font-sans text-2xl font-bold tracking-tight text-lime-900 dark:text-indigo-800  ">{recipe.strMeal}</h5>
                 <img class="m-auto mt-4 flex h-64 w-auto  rounded-full" src={recipe.strMealThumb} alt="" />
                 <div className="mt-1">
-                  <h2 className="font-mono text-2xl font-bold text-indigo-800">Ingredients</h2>
-                  <ul className="capitalize text-lime-200">
+                  <h2 className="font-mono text-2xl font-bold text-lime-900 dark:text-indigo-800">Ingredients</h2>
+                  <ul className="capitalize text-yellow-300 dark:text-white">
                     <li className="flex justify-between px-6">
                       <div>{recipe.strIngredient1}</div>
                       <div>{recipe.strMeasure1}</div>
@@ -72,8 +72,8 @@ function Recipe() {
               </div>
               {/* right */}
               <div className="w-[70%] px-3 pt-2 backdrop-blur-3xl">
-                <h2 className="text-left text-2xl font-bold text-yellow-100">Directions</h2>
-                <p class="mb-3   text-justify text-lg font-normal text-white  dark:text-gray-400">{recipe.strInstructions}</p>
+                <h2 className="text-left text-2xl font-bold text-lime-800 dark:text-indigo-800">Directions</h2>
+                <p class="mb-3   text-justify text-lg font-normal text-yellow-300  dark:text-white">{recipe.strInstructions}</p>
               </div>
             </div>
           );
