@@ -17,8 +17,8 @@ function App() {
           <Route path="*" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/404" element={<NotFound />} />
-          <Route path="/categories" element={<Categories />} />z
-          <Route path="/childCategories/:meals" element={<ChildCategories />} />z
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/childCategories/:meals" element={<ChildCategories />} />
           <Route path="/recipe/:recipe" element={<Recipe />} />
         </Routes>
       </div>
