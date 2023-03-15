@@ -14,6 +14,7 @@ function App() {
       <div className="h-full w-full overflow-hidden rounded-none saturate-150 md:h-[85%] md:w-[80%] md:rounded-2xl  " style={{ backgroundImage: "url(" + Background + ")" }}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/404" element={<NotFound />} />
           <Route path="/categories" element={<Categories />} />z
