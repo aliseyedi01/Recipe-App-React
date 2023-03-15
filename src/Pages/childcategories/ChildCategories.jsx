@@ -26,12 +26,12 @@ function ChildCategories() {
   const catName = useParams();
 
   return (
-    <div className="flex h-full w-full flex-col  backdrop-blur-2xl">
+    <div className="flex h-full min-h-screen  w-full flex-col  backdrop-blur-2xl">
       <Navbar />
       {isLoading ? (
         <Loading />
       ) : (
-        <div className=" scrollbar-hide mt-1 flex flex-wrap items-center justify-center gap-2 overflow-y-scroll scroll-auto px-2 ">
+        <div className=" scrollbar-hide  mt-1 flex  flex-wrap items-center justify-center gap-2 overflow-y-scroll scroll-auto px-2 ">
           {images.map((recipe) => {
             const { strMeal, strMealThumb } = recipe;
             return (

@@ -24,13 +24,13 @@ function Categories() {
   }, []);
 
   return (
-    <div className="h-full w-full backdrop-blur-2xl ">
+    <div className=" h-full min-h-screen w-full backdrop-blur-2xl ">
       <Navbar />
 
       {isLoading ? (
         <Loading />
       ) : (
-        <div className="flex  flex-wrap items-center justify-center   ">
+        <div className="flex  w-full flex-wrap items-center justify-center backdrop-blur-2xl   ">
           {image.map((recipe) => {
             const { strCategory, strCategoryThumb } = recipe;
 

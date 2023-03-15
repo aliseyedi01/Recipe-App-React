@@ -10,8 +10,8 @@ import ChildCategories from "./Pages/childcategories/ChildCategories";
 
 function App() {
   return (
-    <div className="flex h-screen w-screen items-center justify-center bg-gradient-to-b from-orange-500 to-yellow-300  dark:bg-gradient-to-b dark:from-blue-700 dark:via-blue-800 dark:to-gray-900">
-      <div className="h-[85%] w-[80%] overflow-hidden rounded-2xl saturate-150  " style={{ backgroundImage: "url(" + Background + ")" }}>
+    <div className="scrollbar-hide flex h-full w-screen items-center justify-center overflow-y-scroll bg-gradient-to-b from-orange-500 to-yellow-300 dark:bg-gradient-to-b  dark:from-blue-700 dark:via-blue-800 dark:to-gray-900 md:h-screen">
+      <div className="h-full w-full overflow-hidden rounded-none saturate-150 md:h-[85%] md:w-[80%] md:rounded-2xl  " style={{ backgroundImage: "url(" + Background + ")" }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
